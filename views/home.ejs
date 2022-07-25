@@ -1,0 +1,31 @@
+<section id="feed-cars">
+    <% if(locals.user) {%>
+    <h1>Add Car Details</h1>
+    
+<form action="/cars/create" method="POST">
+
+<label for="">Car name :</label><br>
+<input type="text" name="carname" placeholder="enter car name" required> <br><br>
+
+<label for="">Registration no. :</label><br>
+<input type="text" name="regdnum" placeholder="regdnum" required><br><br>
+
+<label for="">Topspeed :</label><br>
+<input type="text" name="topspeed" placeholder="topspeed" required><br><br>
+
+<label for="">Range :</label><br>
+<input type="text" name="range" placeholder="range" required><br><br>
+
+<label for="">Torque :</label><br>
+<input type="text" name="torque" placeholder="torque" required><br><br>
+
+<label for="">Power :</label><br>
+<input type="text" name="power" placeholder="power" required><br><br>
+
+<input type="submit" value="Add Car">
+
+</form>
+<%}%>
+
+</section>
+                

@@ -1,0 +1,28 @@
+                <p>username:<%=user.name%></p>
+                <p>emailID:<%=user.email%></p>
+
+                <section id="feed-cars-profile">
+                    <div id="cars-list-container">
+                        
+                        <ul>
+                            <% for(user_cars of cars){ %>
+                                <li>
+                                    
+                                <p>Car name: <%= user_cars.carname %></p> 
+                                 <p>Regd. no.: <%= user_cars.regdnum %></p>
+                                 <p>Top Speed: <%= user_cars.topspeed %></p>
+                                 <p>Range: <%= user_cars.range %></p> 
+                                 <p>Torque: <%= user_cars.torque %></p> 
+                                 <p>Power: <%= user_cars.power %> </p> <br>
+                                 </li>
+                            <%}%>
+                        </ul>
+                    
+                    </div> 
+                    
+                    
+                    
+                    </section>
+                        
+
+                

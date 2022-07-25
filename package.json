@@ -1,0 +1,27 @@
+{
+  "name": "quantum-dynamics-assignment",
+  "version": "1.0.0",
+  "description": "My assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "assignment"
+  ],
+  "author": "Fazil",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "exppress": "^0.0.1-security",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.4.6",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
